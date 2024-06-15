@@ -1,0 +1,28 @@
+body{
+    background: url(../images/Bf.jpg);
+}
+
+form textarea{
+    border: double;
+    width: 600px;
+    height: 400px;
+}
+
+input{
+    float: right;
+    font-size: large;
+}
+
+div#container {
+    height: 500px;
+}
+
+div#cont1 {
+    color: white;
+    font-size: larger;
+    height: 500px;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0.8;
+}

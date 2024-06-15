@@ -1,0 +1,71 @@
+header{
+    background: #4723aa url(../images/logo.png) 10px;
+    background-repeat: no-repeat;
+    background-size:  30%;
+    opacity: 0.9;
+    margin: 10px 0px 10px 0px;
+    height: 148px;
+}
+
+footer{
+    background-color:#4723aa;
+    color: whitesmoke;
+    text-align: center;
+    opacity: 0.8;
+    padding: 10px;
+    margin-top: 10px;
+}
+/*页眉区和页脚区*/
+
+nav {
+    background-color:#186527;
+	margin: 10px 10px 0px 10px;
+    width: 168px;
+}
+nav ul {
+    margin: 0px;
+    padding: 0px;
+	list-style-type: none;
+    
+}
+nav ul li {
+	padding: 25px 0px 5px 0px;
+    height: 50px;
+    text-align: center;
+    font-size:140%;
+}
+nav ul li.navsel {
+	background-color: rgb(178, 248, 207);
+}
+/*导航栏采用垂直排列*/
+
+a {
+	color: #5b829d;
+	text-decoration: none;
+    font-weight: bold;    
+}
+a:hover{
+    color: aqua;
+}
+
+div#introduction{
+    color:whitesmoke;
+    font-size: large;
+    line-height: 28px;
+    opacity: 0.7;
+    float: right;
+    text-align: right;
+    padding-top: 28px;
+    padding-right: 10px;
+    width: 200px;
+    height: 108px;
+}
+
+div#Nav {
+    position: fixed;
+}    
+/*导航栏一直居于屏幕中央靠左*/
+
+div#container {
+    height: auto;
+}

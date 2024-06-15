@@ -1,0 +1,44 @@
+body{
+    background:url(../images/Bh.jpg) ;
+    background-size: 100%;
+}
+
+h2{
+    margin: 50px 50px 0px 0px;
+}
+
+img{
+    height: 300px;
+    margin-right: 20px;
+    float: left;
+}
+
+div.cont1 {
+    color: rgb(181, 236, 190);
+    height: 1700px;
+    width: 60%;
+    font-size:105%;
+    padding:15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+div.cont1::before{
+    background:#4723aa;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+div.cont1_1{
+    height: 300px;
+    line-height: 35px;
+    font-size: large;
+}
+/*采用凝胶布局*/

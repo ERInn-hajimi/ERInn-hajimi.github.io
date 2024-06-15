@@ -1,0 +1,64 @@
+body{
+    background:url(../images/Be.png) ;
+    background-size: 100%;
+}
+
+div#cont1 {
+    background:#efe5d0;
+    opacity: 0.9;
+    height: auto;
+    width: 600px;
+    font-size:105%;
+    text-align: center;
+    padding:30px;
+    margin-right: 20px;
+    margin-left: 200px;
+    float: left;
+}
+
+div.cont2 {
+    height: auto;
+    width: 450px;
+    font-size:105%;
+    padding: 15px;
+    float: left;
+    position: relative;
+}
+div.cont2::before{
+    background:#efe5d0;
+    opacity: 0.7;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+/*采用浮动布局*/
+
+div#container{
+    height: 600px;
+}
+
+table{
+    caption-side:bottom;
+    border:solid black;
+    border-collapse:  collapse;
+    font-size: large;
+    font-weight: bold;
+}
+td, th {
+    border:thin solid black;
+    padding:20px;
+}
+caption{
+    font-weight: lighter;
+    color:gray;
+}
+
+img{
+    float: left;
+    width: 200px;
+    padding: 10px;
+}

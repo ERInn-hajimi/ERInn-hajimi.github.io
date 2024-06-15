@@ -1,0 +1,38 @@
+body{
+    background:url(../images/Bs.png);
+    background-size: 100%;
+}
+
+li{
+    padding: 15px;
+}
+
+div#container{
+    height: 550px;
+}
+
+div#cont1 {
+    background:#dd7c05;
+    color:  rgb(195, 252, 204);
+    opacity: 0.7;
+    height: 500px;
+    width: 750px;
+    font-size:110%;
+    line-height:30px;
+    padding:15px;
+    margin-right: 20px;
+    margin-left: 200px;
+    float: left;
+}
+
+div#cont2 {
+    background:#dd7c05;
+    color:wheat;
+    opacity: 0.7;
+    height: 350px;
+    width: 350px;
+    font-size:105%;
+    padding: 15px;
+    float: left;
+}
+/*采取浮动布局*/
